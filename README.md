@@ -2,7 +2,7 @@
 
 ## Description
 
-This script decodes the passord of a WiFi network given a sharable QR code.
+This script decodes the password of a WiFi network given a sharable QR code.
 
 ## Requires: 
 
