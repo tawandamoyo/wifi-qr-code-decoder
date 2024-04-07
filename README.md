@@ -1,21 +1,23 @@
-# WiFi Password QR Code Decoder
+#QR Code Decoder
 
 ## Description
 
-This script decodes the password of a WiFi network given a sharable QR code.
+This script decodes the text contents of a QR code.
 
-## Requires: 
+## Requires:
 
-- `Python3`
-- `PIL`
-- `pyzbar`
+- `Python`
+- `Pillow`: Install using `pip install Pillow`
+- `pyzbar`: Install using `pip install pyzbar`
 
 ## Usage
 
-In `main.py` assign `image_source` to the path of your qr image.
+In `main.py` assign `image_source` to the path of your qr image e.g `image_source = './image1.jpeg'` then
 
 Run:
 
 ```python
-python3 main.py
+python main.py
 ```
+## Notes
+This program assumes `python` points to a `Python v3+` binary. 
